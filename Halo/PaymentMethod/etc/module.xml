@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright (c) 2019. 
+ * Copyright Holder : Halo - Ruben Lavooij
+ * Copyright : Unless granted permission from Halo you can not distrubute , reuse  , edit , resell or sell this.
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Halo_PaymentMethod" setup_version="2.0.0" />
+        <sequence>
+        	<module name="Customer"/>
+        </sequence>
+</config>

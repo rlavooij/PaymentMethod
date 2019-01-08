@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright (c) 2019. 
+ * Copyright Holder : Halo - Ruben Lavooij
+ * Copyright : Unless granted permission from Halo you can not distrubute , reuse  , edit , resell or sell this.
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="payment_method_is_active">
+        <observer name="Halo_PaymentMethod_DisabledPgByCustomergroup" instance="Halo\PaymentMethod\Observer\DisabledPgByCustomergroup" />
+    </event>
+</config>
